@@ -1,0 +1,7 @@
+- id: pgFormatter
+  name: pgFormatter
+  description: PostgreSQL formatter
+  language: script
+  entry: pgFormatter/pg_format
+  files: '.*\.sql$'
+  pass_filenames: true
